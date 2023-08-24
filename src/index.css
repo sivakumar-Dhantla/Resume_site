@@ -1,0 +1,71 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.first-part {
+  display: flex;
+  flex-direction: row;
+  padding: 10px 20px 10px;
+  margin: 10px 20px 10px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  background: radial-gradient(white, orange);
+  justify-content: space-between;
+}
+.select-box {
+  padding: 10px 180px 10px 180px;
+
+  border-radius: 20px;
+  border: none;
+  margin: 35px 20px 20px 80px;
+  font-size: 15px;
+  font-weight: 700;
+  color: gray;
+  appearance: none;
+}
+
+.select-box:hover {
+  border: none;
+}
+.f-p-description {
+  padding: 20px 50px 20px 30px;
+}
+.f-p-description h4 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.f-p-description p {
+  font-size: 18px;
+}
+.left-part {
+  font-family: sans-serif;
+}
+.right-part {
+  margin: 5px;
+  margin-right: 5px;
+}
+.right-part img {
+  border-radius: 14px;
+}
+.list {
+  /* border: 1px solid black; */
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border-radius: 15px;
+  font-family: sans-serif;
+}
+
+.list h3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.list p {
+  color: rgb(84, 80, 80);
+}
+.resume-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
